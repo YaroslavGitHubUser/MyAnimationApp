@@ -55,7 +55,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="nextAnimationCalled" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIA-YH-Ac0"/>
+                                    <action selector="nextAnimationCalled:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8U3-Fw-GGY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,7 +70,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="nextAnimationButton" destination="8F7-oE-OHg" id="CyB-Jj-QTa"/>
                         <outlet property="springAnimationView" destination="mvX-vO-ELK" id="cjh-5d-k7x"/>
                         <outlet property="springAnimationViewText" destination="dbc-vf-4zv" id="tev-L0-tEi"/>
                     </connections>
